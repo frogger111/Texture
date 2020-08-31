@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   end
   
   spec.subspec 'PINRemoteImage' do |pin|
-    pin.dependency 'PINRemoteImage/iOS', git: 'https://github.com/frogger111/PINRemoteImage.git'
+    pin.dependency 'PINRemoteImage/iOS', :git => 'https://github.com/frogger111/PINRemoteImage.git'
     pin.dependency 'PINRemoteImage/PINCache'
     pin.dependency 'Texture/Core'
   end
